@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*début css*/
+
+body::-webkit-scrollbar {
+    width: 0px; /* width of the entire scrollbar */
+}
+
+body {
+    background-color: #ececec;
+}
+
+header img {
+    width: 100px;
+}
+
+header {
+    background-color: #44566c;
+    display: grid;
+    grid-template-columns: 100px auto max-content 20px;
+    margin: auto;
+}
+
+header ul {
+    text-align: right;
+    vertical-align: middle;
+    line-height: 75px;
+}
+
+header ul li {
+    display: inline;
+    vertical-align: middle;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+header ul li a:hover {
+    color: white;
+    background-color: #201b22;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+header form {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px;
+}
+
+header form input {
+    height: 15.5px;
+    border-style: solid;
+    border-color: #2f435e; 
+    border-right-style: hidden;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 5px;
+    width: 50%;
+}
+
+header form button {
+    background: none;
+    border: none;
+    padding-left: 0px;
+}
+
+header form input:focus {
+    outline : none;
+}
+
+#loupe {
+    position: absolute;
+    top: 25px;
+    height: 15.5px;
+    margin-bottom: 2px;
+    width: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2f435e;
+    border-left-style: hidden;
+    vertical-align: middle;
+    padding: 5px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+input:checked {
+    border-style: none;
+}

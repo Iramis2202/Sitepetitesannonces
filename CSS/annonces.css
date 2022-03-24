@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Début CSS*/
+
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+body {
+    background-color: #ececec;
+}
+
+header img {
+    width: 100px;
+}
+
+header {
+    background-color: #44566c;
+    display: grid;
+    grid-template-columns: 100px auto max-content 20px;
+    margin: auto;
+}
+
+main {
+	display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+a {
+    text-decoration: none;
+	color: black;
+}
+
+.Cartes {
+	text-align: center;
+	width: 	30vw;
+	height: 80vh;
+    margin: auto;
+	display: inline-block;
+	border-radius: 50px;
+	margin-top: 5vh;
+	font-family: Montserrat; /*Provisoire*/
+	font-size: 100%;
+}
+
+.Cartes li {
+	margin-top: 15%;
+	color: #ececec;
+}
+
+.Cartes h2 {
+	margin-top: 5%;
+	font-size: 200%;
+	font-weight: bold;
+	color: #ececec;
+}
+
+#Emploi {
+	background-color: #44526c;
+}
+
+#Revente {
+	background-color: #4b5e65;
+}
+
+#Location {
+	background-color: #44526c;
+}
+
+#Emploi:hover {
+	background-color: #54526c;
+}
+
+#Revente:hover {
+	background-color: #5b5e65;
+}
+
+#Location:hover {
+	background-color: #54526c;
+}
